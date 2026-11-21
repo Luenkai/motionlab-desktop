@@ -42,7 +42,7 @@ jobs:
         with:
           tagName: ${{ github.ref_name }}
           releaseName: 'MotionLab ${{ github.ref_name }}'
-          releaseBody: 'Download the MotionLab Live2D Movement Studio installer for your platform.'
-          releaseDraft: true
+          releaseBody: 'Download the MotionLab Live2D Movement Studio installer for your platform. This alpha requires a locally licensed Cubism Core runtime for fully offline rendering.'
+          releaseDraft: false
           prerelease: true
           args: ${{ matrix.args }}

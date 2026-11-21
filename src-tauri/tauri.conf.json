@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "motionlab",
+  "productName": "MotionLab",
   "version": "0.1.0",
   "identifier": "com.motionlab.live2d",
   "build": {
@@ -13,7 +13,7 @@
     "windows": [
       {
         "label": "main",
-        "title": "motionlab — Live2D movement testing",
+        "title": "MotionLab — Live2D Movement Studio",
         "width": 1440,
         "height": 920,
         "minWidth": 980,
